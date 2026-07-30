@@ -1,8 +1,14 @@
 aid: lunchclub
 name: Lunchclub
-description: Lunchclub is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Lunchclub is an AI-powered professional networking platform that matches members for
+  one-to-one meetings and warm introductions based on their goals, background, and interests.
+  Members set what they are looking for — hiring, fundraising, sales, mentorship, or making new
+  connections — and Lunchclub's matching system proposes relevant people to meet over video.
+  The company is consumer/prosumer facing and does not publish a public developer API, developer
+  portal, or machine-readable API specification. This profile was surfaced as a portfolio company
+  of Lightspeed Venture Partners and enriched in the API Evangelist network; probing confirmed no
+  public API surface, no OpenAPI, and no /.well-known discovery documents.
 url: https://raw.githubusercontent.com/api-evangelist/lunchclub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +16,42 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Professional Networking
+- Artificial Intelligence
+- Matching
+- Introductions
+- Video Meetings
+- Community
+image: https://lunchclub.com/img/og-image-new.png
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lunchclub-domain-security.yml
+- type: Website
+  url: https://lunchclub.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
